@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Predictor ECAM 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-text">
+        <p>Welcome to the Chem GPA Calculator!</p>
+    </div>
+    <div class="container">
+        <h1>Calculate Chem GPA</h1>
+        <div class="input-box">
+            <label for="rollNumber">Enter Your Roll Number:</label>
+            <input type="text" id="rollNumber" placeholder="2024UEAXXXX">
+            <button onclick="GetRollNo()" >Get SGPA</button>
+            <br>
+            <h3>Your GPA according to absolute grading is </h3>
+            <br>
+             <h1 id="gpa">XX</h2>
+            <br>
+            <h3>Your GPA according to relative grading is </h3>
+             <br>  
+             <h1 id = "gpaTwo">XX</h1>
+            
+        </div>
+    </div>
+    <div class = "warning">
+      <p> relative grade doesnt take into account marks of Ecam 2 students so relative cgpa  may not be accurate ,
+         I have followed the rules gived on NSUT website
+         and this reddit post <a href="https://www.reddit.com/r/NSUT_Delhi/comments/1hg7vw6/everything_about_sgpa_calculation/">Calculation Logic</a>
+      </p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
