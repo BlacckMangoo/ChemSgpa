@@ -25,7 +25,7 @@ function GetRollNo() {
               // New grading rules
               if (studentMarks < 30) {
                 grade = "F";
-                gpaValue = "aapki back aayi he 👍";
+                gpaValue = "semester back";
             } else if (studentMarks >= 95) {
                 grade = "O"; // Ensure grade is not less than O
                 gpaValue = "10";
